@@ -450,7 +450,7 @@ Diese Datenschutzrichtlinie kann mit neuen App-Versionen aktualisiert werden. Ä
 
 Bei Fragen kontaktieren Sie uns bitte unter: gigchronicleapp@gmail.com
 
-App-Entwickler: Szymon Dobroczyńskim
+App-Entwickler: Szymon Dobroczyński
 
 ----------
 
