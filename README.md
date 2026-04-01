@@ -1,117 +1,3 @@
-Polityka prywatności – GigChronicle
-
-Data wejścia w życie: 28 marca 2026
-
-Aplikacja GigChronicle szanuje prywatność użytkowników. Niniejsza polityka prywatności wyjaśnia, jakie dane są przetwarzane, w jaki sposób są przechowywane i wykorzystywane.
-
-1. Zakres przetwarzanych danych
-
-Aplikacja nie zbiera ani nie przesyła danych osobowych użytkowników. Wszystkie dane wprowadzane przez użytkownika są przetwarzane i przechowywane wyłącznie lokalnie na urządzeniu użytkownika. Twórca aplikacji nie ma dostępu do tych danych.
-
-Dane przechowywane lokalnie obejmują:
-
-• Odliczania — nazwa artysty/wydarzenia, miejsce, miasto, kraj, festiwal, data, godzina, link, notatki, ustawienia powiadomień i alarmu, ustawienia powtarzalności, ustawienia ekranu blokady.
-• Wydarzenia (Historia) — nazwa artysty/wydarzenia, miejsce, miasto, kraj, festiwal, data, godzina, link, notatki, oznaczenie jako ulubione.
-• Zdjęcia i filmy — pliki multimedialne dodane przez użytkownika do galerii odliczań i wydarzeń, przechowywane w katalogu wewnętrznym aplikacji. Miniatury filmów są generowane i przechowywane lokalnie.
-• Okładki — zdjęcie lub kolor ustawiony jako tło karty wydarzenia/odliczania.
-• Ustawienia — język, motyw kolorystyczny, kolor akcentu, format daty, nawigacja przesuwaniem, strzałki nawigacyjne, dźwięk alarmu, układ statystyk, widok listy/kafelków, flagi jednorazowych wskazówek.
-
-2. Przechowywanie danych
-
-Dane są przechowywane w trzech lokalizacjach, wszystkie wyłącznie na urządzeniu użytkownika:
-
-• Baza danych Hive — odliczania, wydarzenia i ustawienia, w katalogu wewnętrznym aplikacji.
-• Pliki multimedialne — zdjęcia i filmy w podkatalogu media/ oraz miniatury w podkatalogu thumbs/ katalogu wewnętrznego aplikacji.
-• SharedPreferences — dane widgetów ekranu głównego (powiązanie widgetu z odliczaniem oraz dane wyświetlane na widgecie).
-
-Twórca aplikacji nie ma dostępu do żadnych z powyższych danych. Dane są przetwarzane wyłącznie na urządzeniu użytkownika.
-
-3. Brak przesyłania danych
-
-Aplikacja sama nie przesyła żadnych danych do serwerów zewnętrznych. Nie nawiązuje żadnych połączeń sieciowych. Nie korzysta z usług analitycznych, reklamowych, śledzących ani żadnych usług chmurowych. Wyjątkiem jest automatyczna kopia zapasowa systemu Android opisana w punkcie 8.
-
-4. Uprawnienia
-
-Aplikacja może wymagać następujących uprawnień systemowych:
-
-• Powiadomienia (POST_NOTIFICATIONS) — wyświetlanie przypomnień o nadchodzących wydarzeniach. Powiadomienia działają wyłącznie lokalnie.
-• Dokładne alarmy (SCHEDULE_EXACT_ALARM, USE_EXACT_ALARM) — precyzyjne planowanie przypomnień i alarmów dźwiękowych.
-• Wibracje (VIBRATE) — wibracje towarzyszące alarmom dźwiękowym.
-• Wyświetlanie na pełnym ekranie (USE_FULL_SCREEN_INTENT) — wyświetlanie alarmu na pełnym ekranie.
-• Restart automatyczny (RECEIVE_BOOT_COMPLETED) — przywracanie zaplanowanych powiadomień i alarmów po ponownym uruchomieniu lub aktualizacji telefonu.
-• Aparat (CAMERA) — robienie zdjęć oraz nagrywanie filmów (maks. 30 sekund) bezpośrednio z poziomu aplikacji.
-• Dostęp do zdjęć (READ_MEDIA_IMAGES) — wybieranie zdjęć i filmów z galerii telefonu w celu dodania ich do galerii wydarzenia/odliczania. Oryginały pozostają w galerii telefonu; do aplikacji kopiowana jest kopia.
-• Zapis do galerii telefonu — użytkownik może ręcznie zapisać zdjęcie lub film z galerii aplikacji do galerii telefonu. Wymaga to jednorazowej zgody na dostęp do galerii.
-• Pamięć urządzenia (READ/WRITE_EXTERNAL_STORAGE na starszych wersjach Androida) — importowanie i eksportowanie plików (CSV, XLSX, ZIP).
-• Dostęp do dzwonków systemowych — wybór dźwięku alarmu z listy dzwonków zainstalowanych na telefonie.
-
-Żadne z powyższych uprawnień nie powoduje przesyłania danych poza urządzenie.
-
-5. Eksport i udostępnianie danych
-
-Użytkownik może dobrowolnie eksportować dane z aplikacji. Eksport jest zawsze inicjowany przez użytkownika i nigdy nie następuje automatycznie:
-
-• Eksport do CSV/XLSX — wydarzenia, odliczania lub statystyki mogą być eksportowane do plików CSV lub XLSX. Pliki są zapisywane w wybranej przez użytkownika lokalizacji na urządzeniu.
-• Pełna kopia zapasowa (ZIP) — użytkownik może utworzyć pełną kopię zapasową zawierającą wszystkie wydarzenia, odliczania, ustawienia, zdjęcia i filmy. Kopia jest zapisywana jako plik ZIP w wybranej lokalizacji.
-• Przywracanie kopii zapasowej — użytkownik może przywrócić kopię zapasową z pliku ZIP. Przywrócenie zastępuje wszystkie istniejące dane w aplikacji.
-• Udostępnianie zdjęć i filmów — użytkownik może udostępnić pojedyncze zdjęcie lub film za pomocą systemowego arkusza udostępniania (np. wysłać przez komunikator lub e-mail). Udostępnianie jest inicjowane wyłącznie przez użytkownika.
-• Kopiowanie linku — użytkownik może skopiować link do schowka systemowego poprzez długie przytrzymanie linku w widoku szczegółów.
-
-6. Otwieranie linków zewnętrznych
-
-Jeśli użytkownik doda link do wydarzenia lub odliczania, może go otworzyć klikając na niego. Link jest otwierany w domyślnej przeglądarce systemowej. Aplikacja obsługuje wyłącznie linki HTTP i HTTPS. Aplikacja nie śledzi ani nie rejestruje otwieranych linków.
-
-7. Widgety ekranu głównego
-
-Aplikacja umożliwia dodanie widgetów na ekran główny telefonu (w rozmiarach 1x1, 2x1, 3x1 i 2x2). Widgety wyświetlają odliczanie do wybranego wydarzenia. Dane widgetów (nazwa wydarzenia, liczba dni) są przechowywane lokalnie w SharedPreferences na urządzeniu.
-
-8. Automatyczna kopia zapasowa systemu Android
-
-System Android może automatycznie tworzyć kopię zapasową danych aplikacji na koncie Google Drive użytkownika (funkcja Auto Backup). Jest to funkcja systemu operacyjnego, niezależna od aplikacji — aplikacja sama nie inicjuje tego procesu. Użytkownik może wyłączyć tę funkcję w ustawieniach systemu Android (Ustawienia > System > Kopia zapasowa). Dane przechowywane w kopii zapasowej Google Drive podlegają polityce prywatności firmy Google.
-
-9. Usługi zewnętrzne
-
-Aplikacja nie korzysta z żadnych usług zewnętrznych. W szczególności:
-
-• Brak analityki i śledzenia (brak Google Analytics, Firebase Analytics itp.).
-• Brak reklam.
-• Brak usług chmurowych (brak Firebase, brak synchronizacji).
-• Brak raportowania błędów do zewnętrznych serwisów.
-• Brak logowania przez konta zewnętrzne.
-
-10. Biblioteki zewnętrzne
-
-Aplikacja korzysta z bibliotek open-source wyłącznie do obsługi funkcji lokalnych (m.in. baza danych, powiadomienia, widgety, obsługa zdjęć i filmów, eksport plików). Według wiedzy twórcy aplikacji żadna z używanych bibliotek nie zbiera ani nie przesyła danych użytkownika.
-
-11. Bezpieczeństwo danych
-
-Dane są przechowywane lokalnie i pozostają pod pełną kontrolą użytkownika. Użytkownik może w każdej chwili:
-
-• Wyeksportować swoje dane (CSV, XLSX lub pełna kopia zapasowa ZIP).
-• Usunąć pojedyncze wydarzenia, odliczania, zdjęcia lub filmy.
-• Usunąć wszystkie dane poprzez wyczyszczenie pamięci aplikacji w ustawieniach systemu Android.
-• Odinstalować aplikację, co usunie wszystkie dane lokalne.
-
-Aplikacja nie stosuje szyfrowania danych na urządzeniu ponad standardowe mechanizmy ochrony systemu Android.
-
-12. Treści użytkownika
-
-Aplikacja umożliwia użytkownikom dodawanie własnych treści (zdjęcia, filmy, notatki, linki). Twórca aplikacji nie ma dostępu do treści tworzonych przez użytkowników i nie moderuje ich. Odpowiedzialność za treści dodawane do aplikacji spoczywa na użytkowniku.
-
-Aplikacja nie wymaga rejestracji ani podawania danych osobowych. Nie zawiera reklam, zakupów, funkcji społecznościowych ani czatu.
-
-13. Zmiany w polityce prywatności
-
-Polityka prywatności może być aktualizowana wraz z nowymi wersjami aplikacji. Zmiany będą dostępne w aplikacji w sekcji Ustawienia > Polityka prywatności.
-
-14. Kontakt
-
-W przypadku pytań prosimy o kontakt: gigchronicleapp@gmail.com
-
-Twórca aplikacji: Szymon Dobroczyński
-
-----------
-
 Privacy Policy - GigChronicle
 
 Effective date: March 28, 2026
@@ -223,6 +109,120 @@ This Privacy Policy may be updated with new app versions. Changes will be availa
 If you have questions please contact: gigchronicleapp@gmail.com
 
 App developer: Szymon Dobroczyński
+
+----------
+
+Polityka prywatności – GigChronicle
+
+Data wejścia w życie: 28 marca 2026
+
+Aplikacja GigChronicle szanuje prywatność użytkowników. Niniejsza polityka prywatności wyjaśnia, jakie dane są przetwarzane, w jaki sposób są przechowywane i wykorzystywane.
+
+1. Zakres przetwarzanych danych
+
+Aplikacja nie zbiera ani nie przesyła danych osobowych użytkowników. Wszystkie dane wprowadzane przez użytkownika są przetwarzane i przechowywane wyłącznie lokalnie na urządzeniu użytkownika. Twórca aplikacji nie ma dostępu do tych danych.
+
+Dane przechowywane lokalnie obejmują:
+
+• Odliczania — nazwa artysty/wydarzenia, miejsce, miasto, kraj, festiwal, data, godzina, link, notatki, ustawienia powiadomień i alarmu, ustawienia powtarzalności, ustawienia ekranu blokady.
+• Wydarzenia (Historia) — nazwa artysty/wydarzenia, miejsce, miasto, kraj, festiwal, data, godzina, link, notatki, oznaczenie jako ulubione.
+• Zdjęcia i filmy — pliki multimedialne dodane przez użytkownika do galerii odliczań i wydarzeń, przechowywane w katalogu wewnętrznym aplikacji. Miniatury filmów są generowane i przechowywane lokalnie.
+• Okładki — zdjęcie lub kolor ustawiony jako tło karty wydarzenia/odliczania.
+• Ustawienia — język, motyw kolorystyczny, kolor akcentu, format daty, nawigacja przesuwaniem, strzałki nawigacyjne, dźwięk alarmu, układ statystyk, widok listy/kafelków, flagi jednorazowych wskazówek.
+
+2. Przechowywanie danych
+
+Dane są przechowywane w trzech lokalizacjach, wszystkie wyłącznie na urządzeniu użytkownika:
+
+• Baza danych Hive — odliczania, wydarzenia i ustawienia, w katalogu wewnętrznym aplikacji.
+• Pliki multimedialne — zdjęcia i filmy w podkatalogu media/ oraz miniatury w podkatalogu thumbs/ katalogu wewnętrznego aplikacji.
+• SharedPreferences — dane widgetów ekranu głównego (powiązanie widgetu z odliczaniem oraz dane wyświetlane na widgecie).
+
+Twórca aplikacji nie ma dostępu do żadnych z powyższych danych. Dane są przetwarzane wyłącznie na urządzeniu użytkownika.
+
+3. Brak przesyłania danych
+
+Aplikacja sama nie przesyła żadnych danych do serwerów zewnętrznych. Nie nawiązuje żadnych połączeń sieciowych. Nie korzysta z usług analitycznych, reklamowych, śledzących ani żadnych usług chmurowych. Wyjątkiem jest automatyczna kopia zapasowa systemu Android opisana w punkcie 8.
+
+4. Uprawnienia
+
+Aplikacja może wymagać następujących uprawnień systemowych:
+
+• Powiadomienia (POST_NOTIFICATIONS) — wyświetlanie przypomnień o nadchodzących wydarzeniach. Powiadomienia działają wyłącznie lokalnie.
+• Dokładne alarmy (SCHEDULE_EXACT_ALARM, USE_EXACT_ALARM) — precyzyjne planowanie przypomnień i alarmów dźwiękowych.
+• Wibracje (VIBRATE) — wibracje towarzyszące alarmom dźwiękowym.
+• Wyświetlanie na pełnym ekranie (USE_FULL_SCREEN_INTENT) — wyświetlanie alarmu na pełnym ekranie.
+• Restart automatyczny (RECEIVE_BOOT_COMPLETED) — przywracanie zaplanowanych powiadomień i alarmów po ponownym uruchomieniu lub aktualizacji telefonu.
+• Aparat (CAMERA) — robienie zdjęć oraz nagrywanie filmów (maks. 30 sekund) bezpośrednio z poziomu aplikacji.
+• Dostęp do zdjęć (READ_MEDIA_IMAGES) — wybieranie zdjęć i filmów z galerii telefonu w celu dodania ich do galerii wydarzenia/odliczania. Oryginały pozostają w galerii telefonu; do aplikacji kopiowana jest kopia.
+• Zapis do galerii telefonu — użytkownik może ręcznie zapisać zdjęcie lub film z galerii aplikacji do galerii telefonu. Wymaga to jednorazowej zgody na dostęp do galerii.
+• Pamięć urządzenia (READ/WRITE_EXTERNAL_STORAGE na starszych wersjach Androida) — importowanie i eksportowanie plików (CSV, XLSX, ZIP).
+• Dostęp do dzwonków systemowych — wybór dźwięku alarmu z listy dzwonków zainstalowanych na telefonie.
+
+Żadne z powyższych uprawnień nie powoduje przesyłania danych poza urządzenie.
+
+5. Eksport i udostępnianie danych
+
+Użytkownik może dobrowolnie eksportować dane z aplikacji. Eksport jest zawsze inicjowany przez użytkownika i nigdy nie następuje automatycznie:
+
+• Eksport do CSV/XLSX — wydarzenia, odliczania lub statystyki mogą być eksportowane do plików CSV lub XLSX. Pliki są zapisywane w wybranej przez użytkownika lokalizacji na urządzeniu.
+• Pełna kopia zapasowa (ZIP) — użytkownik może utworzyć pełną kopię zapasową zawierającą wszystkie wydarzenia, odliczania, ustawienia, zdjęcia i filmy. Kopia jest zapisywana jako plik ZIP w wybranej lokalizacji.
+• Przywracanie kopii zapasowej — użytkownik może przywrócić kopię zapasową z pliku ZIP. Przywrócenie zastępuje wszystkie istniejące dane w aplikacji.
+• Udostępnianie zdjęć i filmów — użytkownik może udostępnić pojedyncze zdjęcie lub film za pomocą systemowego arkusza udostępniania (np. wysłać przez komunikator lub e-mail). Udostępnianie jest inicjowane wyłącznie przez użytkownika.
+• Kopiowanie linku — użytkownik może skopiować link do schowka systemowego poprzez długie przytrzymanie linku w widoku szczegółów.
+
+6. Otwieranie linków zewnętrznych
+
+Jeśli użytkownik doda link do wydarzenia lub odliczania, może go otworzyć klikając na niego. Link jest otwierany w domyślnej przeglądarce systemowej. Aplikacja obsługuje wyłącznie linki HTTP i HTTPS. Aplikacja nie śledzi ani nie rejestruje otwieranych linków.
+
+7. Widgety ekranu głównego
+
+Aplikacja umożliwia dodanie widgetów na ekran główny telefonu (w rozmiarach 1x1, 2x1, 3x1 i 2x2). Widgety wyświetlają odliczanie do wybranego wydarzenia. Dane widgetów (nazwa wydarzenia, liczba dni) są przechowywane lokalnie w SharedPreferences na urządzeniu.
+
+8. Automatyczna kopia zapasowa systemu Android
+
+System Android może automatycznie tworzyć kopię zapasową danych aplikacji na koncie Google Drive użytkownika (funkcja Auto Backup). Jest to funkcja systemu operacyjnego, niezależna od aplikacji — aplikacja sama nie inicjuje tego procesu. Użytkownik może wyłączyć tę funkcję w ustawieniach systemu Android (Ustawienia > System > Kopia zapasowa). Dane przechowywane w kopii zapasowej Google Drive podlegają polityce prywatności firmy Google.
+
+9. Usługi zewnętrzne
+
+Aplikacja nie korzysta z żadnych usług zewnętrznych. W szczególności:
+
+• Brak analityki i śledzenia (brak Google Analytics, Firebase Analytics itp.).
+• Brak reklam.
+• Brak usług chmurowych (brak Firebase, brak synchronizacji).
+• Brak raportowania błędów do zewnętrznych serwisów.
+• Brak logowania przez konta zewnętrzne.
+
+10. Biblioteki zewnętrzne
+
+Aplikacja korzysta z bibliotek open-source wyłącznie do obsługi funkcji lokalnych (m.in. baza danych, powiadomienia, widgety, obsługa zdjęć i filmów, eksport plików). Według wiedzy twórcy aplikacji żadna z używanych bibliotek nie zbiera ani nie przesyła danych użytkownika.
+
+11. Bezpieczeństwo danych
+
+Dane są przechowywane lokalnie i pozostają pod pełną kontrolą użytkownika. Użytkownik może w każdej chwili:
+
+• Wyeksportować swoje dane (CSV, XLSX lub pełna kopia zapasowa ZIP).
+• Usunąć pojedyncze wydarzenia, odliczania, zdjęcia lub filmy.
+• Usunąć wszystkie dane poprzez wyczyszczenie pamięci aplikacji w ustawieniach systemu Android.
+• Odinstalować aplikację, co usunie wszystkie dane lokalne.
+
+Aplikacja nie stosuje szyfrowania danych na urządzeniu ponad standardowe mechanizmy ochrony systemu Android.
+
+12. Treści użytkownika
+
+Aplikacja umożliwia użytkownikom dodawanie własnych treści (zdjęcia, filmy, notatki, linki). Twórca aplikacji nie ma dostępu do treści tworzonych przez użytkowników i nie moderuje ich. Odpowiedzialność za treści dodawane do aplikacji spoczywa na użytkowniku.
+
+Aplikacja nie wymaga rejestracji ani podawania danych osobowych. Nie zawiera reklam, zakupów, funkcji społecznościowych ani czatu.
+
+13. Zmiany w polityce prywatności
+
+Polityka prywatności może być aktualizowana wraz z nowymi wersjami aplikacji. Zmiany będą dostępne w aplikacji w sekcji Ustawienia > Polityka prywatności.
+
+14. Kontakt
+
+W przypadku pytań prosimy o kontakt: gigchronicleapp@gmail.com
+
+Twórca aplikacji: Szymon Dobroczyński
 
 ----------
 
@@ -565,3 +565,117 @@ Esta Política de privacidad puede actualizarse con nuevas versiones de la aplic
 Si tiene alguna pregunta, por favor contáctenos en: gigchronicleapp@gmail.com
 
 Creador de la aplicación: Szymon Dobroczyński
+
+----------
+
+Tietosuojakäytäntö – GigChronicle
+
+Voimaantulopäivä: 28. maaliskuuta 2026
+
+GigChronicle kunnioittaa yksityisyyttäsi. Tämä tietosuojakäytäntö selittää, mitä tietoja käsitellään, miten ne tallennetaan ja miten niitä käytetään.
+
+1. Tietojen käsittely
+
+Sovellus ei kerää eikä lähetä henkilötietoja. Kaikki käyttäjän syöttämät tiedot käsitellään ja tallennetaan yksinomaan käyttäjän laitteelle. Sovelluksen kehittäjällä ei ole pääsyä näihin tietoihin.
+
+Paikallisesti tallennetut tiedot sisältävät:
+
+• Laskurit — artistin/tapahtuman nimi, paikka, kaupunki, maa, festivaali, päivämäärä, aika, linkki, muistiinpanot, ilmoitus- ja hälytysasetukset, toistuvuusasetukset, lukitusnäytön asetukset.
+• Tapahtumat (Historia) — artistin/tapahtuman nimi, paikka, kaupunki, maa, festivaali, päivämäärä, aika, linkki, muistiinpanot, suosikkimerkintä.
+• Valokuvat ja videot — käyttäjän laskurien ja tapahtumien gallerioihin lisäämät mediatiedostot, tallennettu sovelluksen sisäiseen hakemistoon. Videoiden pikkukuvat luodaan ja tallennetaan paikallisesti.
+• Kannet — valokuva tai väri, joka on asetettu tapahtuman/laskurin kortin taustaksi.
+• Asetukset — kieli, väri¬teema, korostusväri, päivämäärämuoto, pyyhkäisynavigaatio, navigointinuolet, herätysääni, tilastojen asettelu, lista-/ruudukkonäkymä, kertavinkkien liput.
+
+2. Tietojen tallennus
+
+Tiedot tallennetaan kolmeen sijaintiin, kaikki yksinomaan käyttäjän laitteelle:
+
+• Hive-tietokanta — laskurit, tapahtumat ja asetukset sovelluksen sisäisessä hakemistossa.
+• Mediatiedostot — valokuvat ja videot media/-alihakemistossa ja pikkukuvat thumbs/-alihakemistossa sovelluksen sisäisessä hakemistossa.
+• SharedPreferences — aloitusnäytön widget-tiedot (widgetin ja laskurin yhdistäminen sekä näytettävät tiedot).
+
+Sovelluksen kehittäjällä ei ole pääsyä mihinkään yllä mainittuihin tietoihin. Tiedot käsitellään yksinomaan käyttäjän laitteelle.
+
+3. Ei tiedonsiirtoa
+
+Sovellus ei itse lähetä mitään tietoja ulkoisille palvelimille. Se ei muodosta verkkoyhteyksiä. Se ei käytä analytiikka-, mainos-, seuranta- tai pilvipalveluita. Poikkeuksena on Androidin automaattinen varmuuskopiointi, joka kuvataan kohdassa 8.
+
+4. Käyttöoikeudet
+
+Sovellus voi vaatia seuraavat järjestelmäoikeudet:
+
+• Ilmoitukset (POST_NOTIFICATIONS) — muistutusten näyttäminen tulevista tapahtumista. Ilmoitukset toimivat täysin paikallisesti.
+• Tarkat hälytykset (SCHEDULE_EXACT_ALARM, USE_EXACT_ALARM) — muistutusten ja äänihälytysten tarkka ajastaminen.
+• Värinä (VIBRATE) — äänihälytyksiin liittyvä värinä.
+• Koko näytön näyttö (USE_FULL_SCREEN_INTENT) — hälytysten näyttäminen koko näytöllä.
+• Automaattinen uudelleenkäynnistys (RECEIVE_BOOT_COMPLETED) — ajastettujen ilmoitusten ja hälytysten palauttaminen puhelimen uudelleenkäynnistyksen tai sovelluspäivityksen jälkeen.
+• Kamera (CAMERA) — valokuvien ottaminen ja videoiden kuvaaminen (enintään 30 sekuntia) suoraan sovelluksesta.
+• Valokuvien käyttöoikeus (READ_MEDIA_IMAGES) — valokuvien ja videoiden valitseminen puhelimen galleriasta tapahtuman/laskurin galleriaan lisäämiseksi. Alkuperäiset säilyvät puhelimen galleriassa; kopio tallennetaan sovellukseen.
+• Tallennus puhelimen galleriaan — käyttäjä voi tallentaa valokuvan tai videon sovelluksen galleriasta puhelimen galleriaan manuaalisesti. Tämä vaatii kertaluontoisen gallerian käyttöoikeuden.
+• Laitteen tallennustila (READ/WRITE_EXTERNAL_STORAGE vanhemmissa Android-versioissa) — tiedostojen tuonti ja vienti (CSV, XLSX, ZIP).
+• Järjestelmän soittoäänien käyttö — herätysäänen valitseminen puhelimeen asennettujen soittoäänien luettelosta.
+
+Mikään näistä käyttöoikeuksista ei aiheuta tietojen lähettämistä laitteen ulkopuolelle.
+
+5. Tietojen vienti ja jakaminen
+
+Käyttäjä voi vapaaehtoisesti viedä tietoja sovelluksesta. Vienti tapahtuu aina käyttäjän aloitteesta eikä koskaan automaattisesti:
+
+• CSV/XLSX-vienti — tapahtumat, laskurit tai tilastot voidaan viedä CSV- tai XLSX-tiedostoihin. Tiedostot tallennetaan käyttäjän valitsemaan sijaintiin.
+• Täydellinen varmuuskopio (ZIP) — käyttäjä voi luoda täydellisen varmuuskopion, joka sisältää kaikki tapahtumat, laskurit, asetukset, valokuvat ja videot. Varmuuskopio tallennetaan ZIP-tiedostona valittuun sijaintiin.
+• Varmuuskopion palautus — käyttäjä voi palauttaa varmuuskopion ZIP-tiedostosta. Palautus korvaa kaikki sovelluksen olemassa olevat tiedot.
+• Valokuvien ja videoiden jakaminen — käyttäjä voi jakaa yksittäisiä valokuvia tai videoita järjestelmän jakoarkin kautta (esim. lähettää viestisovelluksella tai sähköpostilla). Jakaminen tapahtuu yksinomaan käyttäjän aloitteesta.
+• Linkin kopiointi — käyttäjä voi kopioida linkin järjestelmän leikepöydälle painamalla linkkiä pitkään tietonäkymässä.
+
+6. Ulkoisten linkkien avaaminen
+
+Jos käyttäjä lisää linkin tapahtumaan tai laskuriin, hän voi avata sen napauttamalla. Linkki avataan järjestelmän oletusselaimessa. Sovellus tukee vain HTTP- ja HTTPS-linkkejä. Sovellus ei seuraa eikä kirjaa avattuja linkkejä.
+
+7. Aloitusnäytön widgetit
+
+Sovellus mahdollistaa widgetien lisäämisen puhelimen aloitusnäytölle (kokoina 1x1, 2x1, 3x1 ja 2x2). Widgetit näyttävät laskurin valittuun tapahtumaan. Widget-tiedot (tapahtuman nimi, päivien lukumäärä) tallennetaan paikallisesti SharedPreferencesiin laitteelle.
+
+8. Androidin automaattinen varmuuskopiointi
+
+Android-käyttöjärjestelmä voi automaattisesti varmuuskopioida sovellustiedot käyttäjän Google Drive -tilille (Auto Backup -toiminto). Tämä on käyttöjärjestelmän toiminto, joka on riippumaton sovelluksesta — sovellus ei itse käynnistä tätä prosessia. Käyttäjä voi poistaa tämän toiminnon käytöstä Androidin järjestelmäasetuksissa (Asetukset > Järjestelmä > Varmuuskopiointi). Google Driven varmuuskopioon tallennetut tiedot ovat kuuluvat Googlen tietosuojakäytännön piiriin.
+
+9. Kolmannen osapuolen palvelut
+
+Sovellus ei käytä mitään kolmannen osapuolen palveluita. Erityisesti:
+
+• Ei analytiikkaa tai seurantaa (ei Google Analyticsia, Firebase Analyticsia jne.).
+• Ei mainoksia.
+• Ei pilvipalveluita (ei Firebasea, ei synkronointia).
+• Ei virheraportteja ulkoisille palveluille.
+• Ei kirjautumista ulkoisten tilien kautta.
+
+10. Kolmannen osapuolen kirjastot
+
+Sovellus käyttää avoimen lähdekoodin kirjastoja yksinomaan paikallisiin toimintoihin (mukaan lukien tietokanta, ilmoitukset, widgetit, valokuvien ja videoiden käsittely, tiedostojen vienti). Kehittäjän parhaan tietämyksen mukaan mikään käytetyistä kirjastoista ei kerää eikä lähetä käyttäjätietoja.
+
+11. Tietoturva
+
+Kaikki tiedot tallennetaan paikallisesti ja ovat täysin käyttäjän hallinnassa. Käyttäjä voi milloin tahansa:
+
+• Viedä tietonsa (CSV, XLSX tai täydellinen ZIP-varmuuskopio).
+• Poistaa yksittäisiä tapahtumia, laskureita, valokuvia tai videoita.
+• Poistaa kaikki tiedot tyhjentämällä sovelluksen tallennustilan Androidin järjestelmäasetuksissa.
+• Poistaa sovelluksen, jolloin kaikki paikalliset tiedot poistetaan.
+
+Sovellus ei käytä tietojen salausta Android-käyttöjärjestelmän vakioturvamekanismien lisäksi.
+
+12. Käyttäjän sisältö
+
+Sovellus mahdollistaa käyttäjien oman sisällön lisäämisen (valokuvat, videot, muistiinpanot, linkit). Sovelluksen kehittäjällä ei ole pääsyä käyttäjien luomaan sisältöön eikä hän moderoi sitä. Vastuu sovellukseen lisätystä sisällöstä on käyttäjällä.
+
+Sovellus ei vaadi rekisteröitymistä eikä henkilötietoja. Se ei sisällä mainoksia, ostoksia, sosiaalisia ominaisuuksia eikä chattia.
+
+13. Käytännön muutokset
+
+Tätä tietosuojakäytäntöä voidaan päivittää sovelluksen uusien versioiden myötä. Muutokset ovat saatavilla sovelluksessa kohdassa Asetukset > Tietosuojakäytäntö.
+
+14. Yhteystiedot
+
+Jos sinulla on kysyttävää, ota yhteyttä: gigchronicleapp@gmail.com
+
+Sovelluksen kehittäjä: Szymon Dobroczyński
