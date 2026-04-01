@@ -625,7 +625,7 @@ Käyttäjä voi vapaaehtoisesti viedä tietoja sovelluksesta. Vienti tapahtuu ai
 • Täydellinen varmuuskopio (ZIP) — käyttäjä voi luoda täydellisen varmuuskopion, joka sisältää kaikki tapahtumat, laskurit, asetukset, valokuvat ja videot. Varmuuskopio tallennetaan ZIP-tiedostona valittuun sijaintiin.
 • Varmuuskopion palautus — käyttäjä voi palauttaa varmuuskopion ZIP-tiedostosta. Palautus korvaa kaikki sovelluksen olemassa olevat tiedot.
 • Valokuvien ja videoiden jakaminen — käyttäjä voi jakaa yksittäisiä valokuvia tai videoita järjestelmän jakoarkin kautta (esim. lähettää viestisovelluksella tai sähköpostilla). Jakaminen tapahtuu yksinomaan käyttäjän aloitteesta.
-• Linkin kopiointi — käyttäjä voi kopioida linkin järjestelmän leikepöydälle painamalla linkkiä pitkään tietonäkymässä.
+• Linkin kopiointi — käyttäjä voi kopioida linkin järjestelmän leikepöydälle painamalla linkkiä pitkään yksityiskohtanäkymässä.
 
 6. Ulkoisten linkkien avaaminen
 
@@ -637,7 +637,7 @@ Sovellus mahdollistaa widgetien lisäämisen puhelimen aloitusnäytölle (kokoin
 
 8. Androidin automaattinen varmuuskopiointi
 
-Android-käyttöjärjestelmä voi automaattisesti varmuuskopioida sovellustiedot käyttäjän Google Drive -tilille (Auto Backup -toiminto). Tämä on käyttöjärjestelmän toiminto, joka on riippumaton sovelluksesta — sovellus ei itse käynnistä tätä prosessia. Käyttäjä voi poistaa tämän toiminnon käytöstä Androidin järjestelmäasetuksissa (Asetukset > Järjestelmä > Varmuuskopiointi). Google Driven varmuuskopioon tallennetut tiedot ovat kuuluvat Googlen tietosuojakäytännön piiriin.
+Android-käyttöjärjestelmä voi automaattisesti varmuuskopioida sovellustiedot käyttäjän Google Drive -tilille (Auto Backup -toiminto). Tämä on käyttöjärjestelmän toiminto, joka on riippumaton sovelluksesta — sovellus ei itse käynnistä tätä prosessia. Käyttäjä voi poistaa tämän toiminnon käytöstä Androidin järjestelmäasetuksissa (Asetukset > Järjestelmä > Varmuuskopiointi). Google Driven varmuuskopioon tallennetut tiedot kuuluvat Googlen tietosuojakäytännön piiriin.
 
 9. Kolmannen osapuolen palvelut
 
