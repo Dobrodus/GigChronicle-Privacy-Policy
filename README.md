@@ -14,7 +14,8 @@ Data stored locally includes:
 • Events (History) — artist/event name, venue, city, country, festival, date, time, link, notes, favorite marking.
 • Photos and videos — media files added by the user to counter and event galleries, stored in the app's internal directory. Video thumbnails are generated and stored locally.
 • Covers — a photo or color set as the card background for an event/counter.
-• Settings — language, color theme, accent color, date format, swipe navigation, navigation arrows, alarm sound, statistics layout, list/grid view, one-time tip flags.
+• Tickets — photos (JPG, PNG) and PDF files attached to counters and events. Tickets can be shared between multiple counters and events.
+• Settings — language, color theme, accent color, date format, swipe navigation, navigation arrows, alarm sound, statistics layout, list/grid view, image compression, one-time tip flags.
 
 2. Data Storage
 
@@ -128,7 +129,8 @@ Dane przechowywane lokalnie obejmują:
 • Wydarzenia (Historia) — nazwa artysty/wydarzenia, miejsce, miasto, kraj, festiwal, data, godzina, link, notatki, oznaczenie jako ulubione.
 • Zdjęcia i filmy — pliki multimedialne dodane przez użytkownika do galerii odliczań i wydarzeń, przechowywane w katalogu wewnętrznym aplikacji. Miniatury filmów są generowane i przechowywane lokalnie.
 • Okładki — zdjęcie lub kolor ustawiony jako tło karty wydarzenia/odliczania.
-• Ustawienia — język, motyw kolorystyczny, kolor akcentu, format daty, nawigacja przesuwaniem, strzałki nawigacyjne, dźwięk alarmu, układ statystyk, widok listy/kafelków, flagi jednorazowych wskazówek.
+• Bilety — zdjęcia (JPG, PNG) i pliki PDF dołączone do odliczań i wydarzeń. Bilety mogą być współdzielone między wieloma odliczaniami i wydarzeniami.
+• Ustawienia — język, motyw kolorystyczny, kolor akcentu, format daty, nawigacja przesuwaniem, strzałki nawigacyjne, dźwięk alarmu, układ statystyk, widok listy/kafelków, kompresja zdjęć, flagi jednorazowych wskazówek.
 
 2. Przechowywanie danych
 
@@ -242,7 +244,8 @@ Lokálně uložené údaje zahrnují:
 • Události (Historie) — název umělce/události, místo konání, město, země, festival, datum, čas, odkaz, poznámky, označení jako oblíbené.
 • Fotografie a videa — mediální soubory přidané uživatelem do galerií odpočtů a událostí, uložené ve vnitřním adresáři aplikace. Náhledy videí jsou generovány a ukládány lokálně.
 • Obálky — fotografie nebo barva nastavená jako pozadí karty události/odpočtu.
-• Nastavení — jazyk, barevný motiv, barva zvýraznění, formát data, navigace přejetím, navigační šipky, zvuk budíku, rozložení statistik, zobrazení seznamu/dlaždic, příznaky jednorázových tipů.
+• Vstupenky — fotografie (JPG, PNG) a soubory PDF připojené k odpočtům a událostem. Vstupenky mohou být sdíleny mezi více odpočty a událostmi.
+• Nastavení — jazyk, barevný motiv, barva zvýraznění, formát data, navigace přejetím, navigační šipky, zvuk budíku, rozložení statistik, zobrazení seznamu/dlaždic, komprese fotografií, příznaky jednorázových tipů.
 
 2. Ukládání údajů
 
@@ -356,7 +359,8 @@ Lokal gespeicherte Daten umfassen:
 • Veranstaltungen (Archiv) — Künstler-/Veranstaltungsname, Veranstaltungsort, Stadt, Land, Festival, Datum, Uhrzeit, Link, Notizen, Favoriten-Markierung.
 • Fotos und Videos — Mediendateien, die vom Benutzer zu Countdown- und Veranstaltungsgalerien hinzugefügt wurden, gespeichert im internen App-Verzeichnis. Video-Vorschaubilder werden lokal generiert und gespeichert.
 • Cover — Foto oder Farbe als Kartenhintergrund einer Veranstaltung/eines Countdowns.
-• Einstellungen — Sprache, Farbdesign, Akzentfarbe, Datumsformat, Wisch-Navigation, Navigationspfeile, Alarmton, Statistik-Layout, Listen-/Kachelansicht, einmalige Tipp-Flags.
+• Tickets — Fotos (JPG, PNG) und PDF-Dateien, die an Countdowns und Veranstaltungen angehängt sind. Tickets können zwischen mehreren Countdowns und Veranstaltungen geteilt werden.
+• Einstellungen — Sprache, Farbdesign, Akzentfarbe, Datumsformat, Wisch-Navigation, Navigationspfeile, Alarmton, Statistik-Layout, Listen-/Kachelansicht, Bildkompression, einmalige Tipp-Flags.
 
 2. Datenspeicherung
 
@@ -470,7 +474,8 @@ Los datos almacenados localmente incluyen:
 • Eventos (Historial) — nombre del artista/evento, lugar, ciudad, país, festival, fecha, hora, enlace, notas, marcado como favorito.
 • Fotos y vídeos — archivos multimedia añadidos por el usuario a las galerías de cuentas atrás y eventos, almacenados en el directorio interno de la aplicación. Las miniaturas de vídeos se generan y almacenan localmente.
 • Portadas — una foto o color establecido como fondo de la tarjeta de un evento/cuenta atrás.
-• Ajustes — idioma, tema de color, color de acento, formato de fecha, navegación por deslizamiento, flechas de navegación, sonido de alarma, disposición de estadísticas, vista de lista/cuadrícula, indicadores de consejos únicos.
+• Entradas — fotos (JPG, PNG) y archivos PDF adjuntos a cuentas atrás y eventos. Las entradas pueden compartirse entre varias cuentas atrás y eventos.
+• Ajustes — idioma, tema de color, color de acento, formato de fecha, navegación por deslizamiento, flechas de navegación, sonido de alarma, disposición de estadísticas, vista de lista/cuadrícula, compresión de imágenes, indicadores de consejos únicos.
 
 2. Almacenamiento de datos
 
@@ -568,6 +573,121 @@ Creador de la aplicación: Szymon Dobroczyński
 
 ----------
 
+Política de Privacidade – GigChronicle
+
+Data de entrada em vigor: 28 de março de 2026
+
+A aplicação GigChronicle respeita a sua privacidade. Esta Política de Privacidade explica que dados são processados, como são armazenados e como são utilizados.
+
+1. Processamento de dados
+
+A aplicação não recolhe nem transmite dados pessoais. Todos os dados introduzidos pelo utilizador são processados e armazenados exclusivamente no dispositivo do utilizador. O desenvolvedor da aplicação não tem acesso a estes dados.
+
+Os dados armazenados localmente incluem:
+
+• Contagens — nome do artista/evento, local, cidade, país, festival, data, hora, link, notas, definições de notificação e alarme, definições de recorrência, definições do ecrã de bloqueio.
+• Eventos (Histórico) — nome do artista/evento, local, cidade, país, festival, data, hora, link, notas, marcação como favorito.
+• Fotos e vídeos — ficheiros multimédia adicionados pelo utilizador às galerias de contagens e eventos, armazenados no diretório interno da aplicação. As miniaturas de vídeos são geradas e armazenadas localmente.
+• Capas — uma foto ou cor definida como fundo do cartão de um evento/contagem.
+• Bilhetes — fotos (JPG, PNG) e ficheiros PDF anexados a contagens e eventos. Os bilhetes podem ser partilhados entre várias contagens e eventos.
+• Definições — idioma, tema de cores, cor de destaque, formato de data, navegação por deslize, setas de navegação, som do alarme, disposição das estatísticas, vista de lista/grelha, compressão de imagens, sinalizadores de dicas únicas.
+
+2. Armazenamento de dados
+
+Os dados são armazenados em três localizações, todas exclusivamente no dispositivo do utilizador:
+
+• Base de dados Hive — contagens, eventos e definições, no diretório interno da aplicação.
+• Ficheiros multimédia — fotos e vídeos no subdiretório media/ e miniaturas no subdiretório thumbs/ do diretório interno da aplicação.
+• SharedPreferences — dados dos widgets do ecrã inicial (associação do widget à contagem e dados apresentados).
+
+O desenvolvedor da aplicação não tem acesso a nenhum dos dados acima mencionados. Os dados são processados exclusivamente no dispositivo do utilizador.
+
+3. Sem transmissão de dados
+
+A aplicação não transmite quaisquer dados para servidores externos. Não estabelece quaisquer ligações de rede. Não utiliza serviços de análise, publicidade, rastreamento ou serviços na nuvem. A exceção é a cópia de segurança automática do sistema Android descrita na secção 8.
+
+4. Permissões
+
+A aplicação pode requerer as seguintes permissões do sistema:
+
+• Notificações (POST_NOTIFICATIONS) — apresentação de lembretes para eventos futuros. As notificações funcionam inteiramente de forma local.
+• Alarmes exatos (SCHEDULE_EXACT_ALARM, USE_EXACT_ALARM) — agendamento preciso de lembretes e alarmes sonoros.
+• Vibração (VIBRATE) — vibração que acompanha os alarmes sonoros.
+• Apresentação em ecrã inteiro (USE_FULL_SCREEN_INTENT) — apresentação de alarmes em ecrã inteiro.
+• Reinício automático (RECEIVE_BOOT_COMPLETED) — restauro de notificações e alarmes agendados após o reinício do telefone ou atualização da aplicação.
+• Câmara (CAMERA) — captura de fotos e gravação de vídeos (máx. 30 segundos) diretamente da aplicação.
+• Acesso a fotos (READ_MEDIA_IMAGES) — seleção de fotos e vídeos da galeria do telefone para adicionar à galeria de um evento/contagem. Os originais permanecem na galeria do telefone; uma cópia é armazenada na aplicação.
+• Guardar na galeria do telefone — o utilizador pode guardar manualmente uma foto ou vídeo da galeria da aplicação na galeria do telefone. Requer uma permissão única de acesso à galeria.
+• Armazenamento do dispositivo (READ/WRITE_EXTERNAL_STORAGE em versões mais antigas do Android) — importação e exportação de ficheiros (CSV, XLSX, ZIP).
+• Acesso aos toques do sistema — seleção de um som de alarme da lista de toques instalados no telefone.
+
+Nenhuma destas permissões causa a transmissão de dados para fora do dispositivo.
+
+5. Exportação e partilha de dados
+
+O utilizador pode exportar voluntariamente dados da aplicação. A exportação é sempre iniciada pelo utilizador e nunca ocorre automaticamente:
+
+• Exportação para CSV/XLSX — eventos, contagens ou estatísticas podem ser exportados para ficheiros CSV ou XLSX. Os ficheiros são guardados na localização escolhida pelo utilizador.
+• Cópia de segurança completa (ZIP) — o utilizador pode criar uma cópia de segurança completa contendo todos os eventos, contagens, definições, fotos e vídeos. A cópia é guardada como ficheiro ZIP na localização escolhida.
+• Restauro de cópia de segurança — o utilizador pode restaurar uma cópia de segurança a partir de um ficheiro ZIP. O restauro substitui todos os dados existentes na aplicação.
+• Partilha de fotos e vídeos — o utilizador pode partilhar fotos ou vídeos individuais através da folha de partilha do sistema (por exemplo, enviar por mensageiro ou e-mail). A partilha é iniciada exclusivamente pelo utilizador.
+• Copiar link — o utilizador pode copiar um link para a área de transferência do sistema premindo longamente o link na vista de detalhes.
+
+6. Abertura de links externos
+
+Se o utilizador adicionar um link a um evento ou contagem, pode abri-lo tocando nele. O link é aberto no navegador predefinido do sistema. A aplicação suporta apenas links HTTP e HTTPS. A aplicação não rastreia nem regista os links abertos.
+
+7. Widgets do ecrã inicial
+
+A aplicação permite adicionar widgets ao ecrã inicial do telefone (nos tamanhos 1x1, 2x1, 3x1 e 2x2). Os widgets apresentam uma contagem até um evento selecionado. Os dados do widget (nome do evento, número de dias) são armazenados localmente em SharedPreferences no dispositivo.
+
+8. Cópia de segurança automática do Android
+
+O sistema operativo Android pode fazer automaticamente uma cópia de segurança dos dados da aplicação na conta Google Drive do utilizador (função Auto Backup). Esta é uma função do sistema operativo independente da aplicação — a aplicação não inicia este processo. O utilizador pode desativar esta função nas definições do sistema Android (Definições > Sistema > Cópia de segurança). Os dados armazenados na cópia de segurança do Google Drive estão sujeitos à Política de Privacidade da Google.
+
+9. Serviços de terceiros
+
+A aplicação não utiliza quaisquer serviços de terceiros. Em particular:
+
+• Sem análise ou rastreamento (sem Google Analytics, Firebase Analytics, etc.).
+• Sem publicidade.
+• Sem serviços na nuvem (sem Firebase, sem sincronização).
+• Sem relatórios de erros para serviços externos.
+• Sem início de sessão através de contas externas.
+
+10. Bibliotecas de terceiros
+
+A aplicação utiliza bibliotecas de código aberto exclusivamente para funcionalidades locais (incluindo base de dados, notificações, widgets, processamento de fotos e vídeos, exportação de ficheiros). Segundo o conhecimento do desenvolvedor, nenhuma das bibliotecas utilizadas recolhe ou transmite dados do utilizador.
+
+11. Segurança dos dados
+
+Todos os dados são armazenados localmente e totalmente controlados pelo utilizador. O utilizador pode a qualquer momento:
+
+• Exportar os seus dados (CSV, XLSX ou cópia de segurança completa ZIP).
+• Eliminar eventos, contagens, fotos ou vídeos individuais.
+• Eliminar todos os dados limpando o armazenamento da aplicação nas definições do sistema Android.
+• Desinstalar a aplicação, o que remove todos os dados locais.
+
+A aplicação não aplica encriptação de dados para além dos mecanismos de segurança padrão do sistema operativo Android.
+
+12. Conteúdo do utilizador
+
+A aplicação permite aos utilizadores adicionar o seu próprio conteúdo (fotos, vídeos, notas, links). O desenvolvedor da aplicação não tem acesso ao conteúdo gerado pelos utilizadores e não o modera. A responsabilidade pelo conteúdo adicionado à aplicação é do utilizador.
+
+A aplicação não requer registo nem informações pessoais. Não contém publicidade, compras, funções sociais nem chat.
+
+13. Alterações a esta política
+
+Esta Política de Privacidade pode ser atualizada com novas versões da aplicação. As alterações estarão disponíveis na aplicação em Definições > Política de Privacidade.
+
+14. Contacto
+
+Se tiver questões, por favor contacte-nos em: gigchronicleapp@gmail.com
+
+Desenvolvedor da aplicação: Szymon Dobroczyński
+
+----------
+
 Tietosuojakäytäntö – GigChronicle
 
 Voimaantulopäivä: 28. maaliskuuta 2026
@@ -584,7 +704,8 @@ Paikallisesti tallennetut tiedot sisältävät:
 • Tapahtumat (Historia) — artistin/tapahtuman nimi, paikka, kaupunki, maa, festivaali, päivämäärä, aika, linkki, muistiinpanot, suosikkimerkintä.
 • Valokuvat ja videot — käyttäjän laskurien ja tapahtumien gallerioihin lisäämät mediatiedostot, tallennettu sovelluksen sisäiseen hakemistoon. Videoiden pikkukuvat luodaan ja tallennetaan paikallisesti.
 • Kannet — valokuva tai väri, joka on asetettu tapahtuman/laskurin kortin taustaksi.
-• Asetukset — kieli, väri¬teema, korostusväri, päivämäärämuoto, pyyhkäisynavigaatio, navigointinuolet, herätysääni, tilastojen asettelu, lista-/ruudukkonäkymä, kertavinkkien liput.
+• Liput — valokuvat (JPG, PNG) ja PDF-tiedostot, jotka on liitetty laskureihin ja tapahtumiin. Liput voidaan jakaa useiden laskureiden ja tapahtumien välillä.
+• Asetukset — kieli, väri¬teema, korostusväri, päivämäärämuoto, pyyhkäisynavigaatio, navigointinuolet, herätysääni, tilastojen asettelu, lista-/ruudukkonäkymä, kuvien pakkaus, kertavinkkien liput.
 
 2. Tietojen tallennus
 
