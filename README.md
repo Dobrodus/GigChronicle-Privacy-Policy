@@ -1,6 +1,6 @@
 Privacy Policy - GigChronicle
 
-Effective date: March 28, 2026
+Effective date: April 21, 2026
 
 GigChronicle respects your privacy. This Privacy Policy explains what data is processed, how it is stored, and how it is used.
 
@@ -41,9 +41,9 @@ The app may require the following system permissions:
 • Full-screen display (USE_FULL_SCREEN_INTENT) — displaying alarms in full screen.
 • Auto-restart (RECEIVE_BOOT_COMPLETED) — restoring scheduled notifications and alarms after the phone restarts or the app is updated.
 • Camera (CAMERA) — taking photos and recording videos (max 30 seconds) directly from the app.
-• Photo access (READ_MEDIA_IMAGES) — selecting photos and videos from the phone gallery to add to an event/counter gallery. Originals remain in the phone gallery; a copy is stored in the app.
-• Save to phone gallery — the user can manually save a photo or video from the app gallery to the phone gallery. This requires a one-time permission to access the gallery.
-• Device storage (READ/WRITE_EXTERNAL_STORAGE on older Android versions) — importing and exporting files (CSV, XLSX, ZIP).
+• Photo and video selection — the app uses the system Photo Picker (Android 13+) or the Storage Access Framework on older versions. No gallery or media access permission is requested; the system grants access only to the specific file you select.
+• Save to phone gallery — the user can manually save a photo or video from the app gallery to the phone gallery via the system MediaStore. The system may show a one-time confirmation; no persistent storage permission is requested.
+• File import/export — importing CSV, XLSX, or ZIP files and saving exports goes through the system file picker (Storage Access Framework). No storage permission is required.
 • System ringtone access — selecting an alarm sound from the system ringtone list.
 
 None of these permissions cause any data to be transmitted outside the device.
@@ -115,7 +115,7 @@ App developer: Szymon Dobroczyński
 
 Polityka prywatności – GigChronicle
 
-Data wejścia w życie: 28 marca 2026
+Data wejścia w życie: 21 kwietnia 2026
 
 Aplikacja GigChronicle szanuje prywatność użytkowników. Niniejsza polityka prywatności wyjaśnia, jakie dane są przetwarzane, w jaki sposób są przechowywane i wykorzystywane.
 
@@ -156,9 +156,9 @@ Aplikacja może wymagać następujących uprawnień systemowych:
 • Wyświetlanie na pełnym ekranie (USE_FULL_SCREEN_INTENT) — wyświetlanie alarmu na pełnym ekranie.
 • Restart automatyczny (RECEIVE_BOOT_COMPLETED) — przywracanie zaplanowanych powiadomień i alarmów po ponownym uruchomieniu lub aktualizacji telefonu.
 • Aparat (CAMERA) — robienie zdjęć oraz nagrywanie filmów (maks. 30 sekund) bezpośrednio z poziomu aplikacji.
-• Dostęp do zdjęć (READ_MEDIA_IMAGES) — wybieranie zdjęć i filmów z galerii telefonu w celu dodania ich do galerii wydarzenia/odliczania. Oryginały pozostają w galerii telefonu; do aplikacji kopiowana jest kopia.
-• Zapis do galerii telefonu — użytkownik może ręcznie zapisać zdjęcie lub film z galerii aplikacji do galerii telefonu. Wymaga to jednorazowej zgody na dostęp do galerii.
-• Pamięć urządzenia (READ/WRITE_EXTERNAL_STORAGE na starszych wersjach Androida) — importowanie i eksportowanie plików (CSV, XLSX, ZIP).
+• Wybór zdjęć i filmów — aplikacja korzysta z systemowego Photo Picker (Android 13+) lub Storage Access Framework na starszych wersjach. Aplikacja nie prosi o uprawnienie do galerii ani multimediów; system udziela dostępu wyłącznie do wybranego przez użytkownika pliku.
+• Zapis do galerii telefonu — użytkownik może ręcznie zapisać zdjęcie lub film z galerii aplikacji do galerii telefonu poprzez systemowe MediaStore. System może wyświetlić jednorazowe potwierdzenie; aplikacja nie wymaga trwałego uprawnienia do pamięci.
+• Import i eksport plików — importowanie plików CSV, XLSX lub ZIP oraz zapis eksportów odbywa się poprzez systemowy selektor plików (Storage Access Framework). Aplikacja nie wymaga uprawnienia do pamięci.
 • Dostęp do dzwonków systemowych — wybór dźwięku alarmu z listy dzwonków zainstalowanych na telefonie.
 
 Żadne z powyższych uprawnień nie powoduje przesyłania danych poza urządzenie.
@@ -230,7 +230,7 @@ Twórca aplikacji: Szymon Dobroczyński
 
 Zásady ochrany osobních údajů – GigChronicle
 
-Datum účinnosti: 28. března 2026
+Datum účinnosti: 21. dubna 2026
 
 Aplikace GigChronicle respektuje vaše soukromí. Tyto zásady ochrany osobních údajů vysvětlují, jaké údaje jsou zpracovávány, jak jsou ukládány a jak jsou využívány.
 
@@ -271,9 +271,9 @@ Aplikace může vyžadovat následující systémová oprávnění:
 • Zobrazení na celou obrazovku (USE_FULL_SCREEN_INTENT) — zobrazení budíku na celé obrazovce.
 • Automatický restart (RECEIVE_BOOT_COMPLETED) — obnovení naplánovaných oznámení a budíků po restartu telefonu nebo aktualizaci aplikace.
 • Fotoaparát (CAMERA) — pořizování fotografií a nahrávání videí (max. 30 sekund) přímo z aplikace.
-• Přístup k fotografiím (READ_MEDIA_IMAGES) — výběr fotografií a videí z galerie telefonu pro přidání do galerie události/odpočtu. Originály zůstávají v galerii telefonu; do aplikace se ukládá kopie.
-• Uložení do galerie telefonu — uživatel může ručně uložit fotografii nebo video z galerie aplikace do galerie telefonu. Vyžaduje jednorázové povolení přístupu ke galerii.
-• Úložiště zařízení (READ/WRITE_EXTERNAL_STORAGE na starších verzích Androidu) — import a export souborů (CSV, XLSX, ZIP).
+• Výběr fotografií a videí — aplikace používá systémový Photo Picker (Android 13+) nebo Storage Access Framework na starších verzích. Aplikace nepožaduje oprávnění ke galerii ani médiím; systém uděluje přístup pouze ke konkrétnímu souboru, který vyberete.
+• Uložení do galerie telefonu — uživatel může ručně uložit fotografii nebo video z galerie aplikace do galerie telefonu přes systémové MediaStore. Systém může zobrazit jednorázové potvrzení; aplikace nevyžaduje trvalé oprávnění k úložišti.
+• Import a export souborů — import souborů CSV, XLSX nebo ZIP a ukládání exportů probíhá přes systémový výběr souborů (Storage Access Framework). Není vyžadováno žádné oprávnění k úložišti.
 • Přístup k systémovým vyzváněcím tónům — výběr zvuku budíku ze seznamu vyzváněcích tónů nainstalovaných v telefonu.
 
 Žádné z výše uvedených oprávnění nezpůsobuje přenos údajů mimo zařízení.
@@ -345,7 +345,7 @@ Autor aplikace: Szymon Dobroczyński
 
 Datenschutzrichtlinie – GigChronicle
 
-Gültig ab: 28. März 2026
+Gültig ab: 21. April 2026
 
 Die App GigChronicle respektiert Ihre Privatsphäre. Diese Datenschutzrichtlinie erklärt, welche Daten verarbeitet werden, wie sie gespeichert und wie sie verwendet werden.
 
@@ -386,9 +386,9 @@ Die App kann folgende Systemberechtigungen erfordern:
 • Vollbildanzeige (USE_FULL_SCREEN_INTENT) — Anzeige von Alarmen im Vollbildmodus.
 • Automatischer Neustart (RECEIVE_BOOT_COMPLETED) — Wiederherstellung geplanter Benachrichtigungen und Alarme nach Neustart oder App-Update.
 • Kamera (CAMERA) — Aufnahme von Fotos und Videos (max. 30 Sekunden) direkt aus der App.
-• Fotozugriff (READ_MEDIA_IMAGES) — Auswahl von Fotos und Videos aus der Telefon-Galerie zum Hinzufügen zu einer Veranstaltungs-/Countdown-Galerie. Originale verbleiben in der Telefon-Galerie; eine Kopie wird in der App gespeichert.
-• Speichern in Telefon-Galerie — Der Benutzer kann manuell ein Foto oder Video aus der App-Galerie in die Telefon-Galerie speichern. Dies erfordert eine einmalige Zugriffsberechtigung.
-• Gerätespeicher (READ/WRITE_EXTERNAL_STORAGE bei älteren Android-Versionen) — Import und Export von Dateien (CSV, XLSX, ZIP).
+• Foto- und Videoauswahl — Die App verwendet den System-Photo-Picker (Android 13+) oder das Storage Access Framework bei älteren Versionen. Es wird keine Galerie- oder Medienzugriffsberechtigung angefordert; das System gewährt nur Zugriff auf die von Ihnen ausgewählte Datei.
+• Speichern in Telefon-Galerie — Der Benutzer kann manuell ein Foto oder Video aus der App-Galerie in die Telefon-Galerie über den System-MediaStore speichern. Das System zeigt bei Bedarf eine einmalige Bestätigung an; es wird keine dauerhafte Speicherberechtigung angefordert.
+• Datei-Import/Export — Der Import von CSV-, XLSX- oder ZIP-Dateien und das Speichern von Exporten erfolgt über die System-Dateiauswahl (Storage Access Framework). Es ist keine Speicherberechtigung erforderlich.
 • Zugriff auf System-Klingeltöne — Auswahl eines Alarmtons aus der Liste der auf dem Telefon installierten Klingeltöne.
 
 Keine dieser Berechtigungen führt zur Übertragung von Daten außerhalb des Geräts.
@@ -460,7 +460,7 @@ App-Entwickler: Szymon Dobroczyński
 
 Política de privacidad – GigChronicle
 
-Fecha de entrada en vigor: 28 de marzo de 2026
+Fecha de entrada en vigor: 21 de abril de 2026
 
 GigChronicle respeta tu privacidad. Esta Política de privacidad explica qué datos se procesan, cómo se almacenan y cómo se utilizan.
 
@@ -501,9 +501,9 @@ La aplicación puede requerir los siguientes permisos del sistema:
 • Visualización en pantalla completa (USE_FULL_SCREEN_INTENT) — mostrar alarmas en pantalla completa.
 • Reinicio automático (RECEIVE_BOOT_COMPLETED) — restaurar notificaciones y alarmas programadas tras el reinicio del teléfono o la actualización de la aplicación.
 • Cámara (CAMERA) — tomar fotos y grabar vídeos (máx. 30 segundos) directamente desde la aplicación.
-• Acceso a fotos (READ_MEDIA_IMAGES) — seleccionar fotos y vídeos de la galería del teléfono para añadirlos a la galería de un evento/cuenta atrás. Los originales permanecen en la galería del teléfono; se almacena una copia en la aplicación.
-• Guardar en la galería del teléfono — el usuario puede guardar manualmente una foto o vídeo de la galería de la aplicación en la galería del teléfono. Requiere un permiso único de acceso a la galería.
-• Almacenamiento del dispositivo (READ/WRITE_EXTERNAL_STORAGE en versiones anteriores de Android) — importación y exportación de archivos (CSV, XLSX, ZIP).
+• Selección de fotos y vídeos — la aplicación utiliza el Photo Picker del sistema (Android 13+) o el Storage Access Framework en versiones anteriores. No se solicita ningún permiso de acceso a la galería ni a los medios; el sistema concede acceso solo al archivo específico que selecciones.
+• Guardar en la galería del teléfono — el usuario puede guardar manualmente una foto o vídeo de la galería de la aplicación en la galería del teléfono a través del MediaStore del sistema. El sistema puede mostrar una confirmación única; no se solicita permiso de almacenamiento persistente.
+• Importación y exportación de archivos — la importación de archivos CSV, XLSX o ZIP y el guardado de exportaciones se realizan a través del selector de archivos del sistema (Storage Access Framework). No se requiere ningún permiso de almacenamiento.
 • Acceso a tonos del sistema — selección de un sonido de alarma de la lista de tonos instalados en el teléfono.
 
 Ninguno de estos permisos provoca la transmisión de datos fuera del dispositivo.
@@ -575,7 +575,7 @@ Creador de la aplicación: Szymon Dobroczyński
 
 Política de Privacidade – GigChronicle
 
-Data de entrada em vigor: 28 de março de 2026
+Data de entrada em vigor: 21 de abril de 2026
 
 A aplicação GigChronicle respeita a sua privacidade. Esta Política de Privacidade explica que dados são processados, como são armazenados e como são utilizados.
 
@@ -616,9 +616,9 @@ A aplicação pode requerer as seguintes permissões do sistema:
 • Apresentação em ecrã inteiro (USE_FULL_SCREEN_INTENT) — apresentação de alarmes em ecrã inteiro.
 • Reinício automático (RECEIVE_BOOT_COMPLETED) — restauro de notificações e alarmes agendados após o reinício do telefone ou atualização da aplicação.
 • Câmara (CAMERA) — captura de fotos e gravação de vídeos (máx. 30 segundos) diretamente da aplicação.
-• Acesso a fotos (READ_MEDIA_IMAGES) — seleção de fotos e vídeos da galeria do telefone para adicionar à galeria de um evento/contagem. Os originais permanecem na galeria do telefone; uma cópia é armazenada na aplicação.
-• Guardar na galeria do telefone — o utilizador pode guardar manualmente uma foto ou vídeo da galeria da aplicação na galeria do telefone. Requer uma permissão única de acesso à galeria.
-• Armazenamento do dispositivo (READ/WRITE_EXTERNAL_STORAGE em versões mais antigas do Android) — importação e exportação de ficheiros (CSV, XLSX, ZIP).
+• Seleção de fotos e vídeos — a aplicação utiliza o Photo Picker do sistema (Android 13+) ou o Storage Access Framework em versões mais antigas. Não é solicitada qualquer permissão de acesso à galeria ou aos meios; o sistema concede acesso apenas ao ficheiro específico que selecionar.
+• Guardar na galeria do telefone — o utilizador pode guardar manualmente uma foto ou vídeo da galeria da aplicação na galeria do telefone através do MediaStore do sistema. O sistema pode apresentar uma confirmação única; não é solicitada qualquer permissão de armazenamento persistente.
+• Importação e exportação de ficheiros — a importação de ficheiros CSV, XLSX ou ZIP e o guardar de exportações é feito através do seletor de ficheiros do sistema (Storage Access Framework). Não é necessária qualquer permissão de armazenamento.
 • Acesso aos toques do sistema — seleção de um som de alarme da lista de toques instalados no telefone.
 
 Nenhuma destas permissões causa a transmissão de dados para fora do dispositivo.
@@ -690,7 +690,7 @@ Desenvolvedor da aplicação: Szymon Dobroczyński
 
 Tietosuojakäytäntö – GigChronicle
 
-Voimaantulopäivä: 28. maaliskuuta 2026
+Voimaantulopäivä: 21. huhtikuuta 2026
 
 GigChronicle kunnioittaa yksityisyyttäsi. Tämä tietosuojakäytäntö selittää, mitä tietoja käsitellään, miten ne tallennetaan ja miten niitä käytetään.
 
@@ -731,9 +731,9 @@ Sovellus voi vaatia seuraavat järjestelmäoikeudet:
 • Koko näytön näyttö (USE_FULL_SCREEN_INTENT) — hälytysten näyttäminen koko näytöllä.
 • Automaattinen uudelleenkäynnistys (RECEIVE_BOOT_COMPLETED) — ajastettujen ilmoitusten ja hälytysten palauttaminen puhelimen uudelleenkäynnistyksen tai sovelluspäivityksen jälkeen.
 • Kamera (CAMERA) — valokuvien ottaminen ja videoiden kuvaaminen (enintään 30 sekuntia) suoraan sovelluksesta.
-• Valokuvien käyttöoikeus (READ_MEDIA_IMAGES) — valokuvien ja videoiden valitseminen puhelimen galleriasta tapahtuman/laskurin galleriaan lisäämiseksi. Alkuperäiset säilyvät puhelimen galleriassa; kopio tallennetaan sovellukseen.
-• Tallennus puhelimen galleriaan — käyttäjä voi tallentaa valokuvan tai videon sovelluksen galleriasta puhelimen galleriaan manuaalisesti. Tämä vaatii kertaluontoisen gallerian käyttöoikeuden.
-• Laitteen tallennustila (READ/WRITE_EXTERNAL_STORAGE vanhemmissa Android-versioissa) — tiedostojen tuonti ja vienti (CSV, XLSX, ZIP).
+• Valokuvien ja videoiden valinta — sovellus käyttää järjestelmän Photo Pickeriä (Android 13+) tai Storage Access Frameworkia vanhemmissa versioissa. Sovellus ei pyydä gallerian tai median käyttöoikeuksia; järjestelmä myöntää pääsyn vain valitsemaasi tiedostoon.
+• Tallennus puhelimen galleriaan — käyttäjä voi tallentaa valokuvan tai videon sovelluksen galleriasta puhelimen galleriaan järjestelmän MediaStoren kautta. Järjestelmä voi näyttää kertaluontoisen vahvistuksen; pysyvää tallennusoikeutta ei pyydetä.
+• Tiedostojen tuonti ja vienti — CSV-, XLSX- tai ZIP-tiedostojen tuonti ja vientitiedostojen tallentaminen tapahtuu järjestelmän tiedostovalitsimen (Storage Access Framework) kautta. Tallennustilan käyttöoikeutta ei tarvita.
 • Järjestelmän soittoäänien käyttö — herätysäänen valitseminen puhelimeen asennettujen soittoäänien luettelosta.
 
 Mikään näistä käyttöoikeuksista ei aiheuta tietojen lähettämistä laitteen ulkopuolelle.
