@@ -1,6 +1,6 @@
 Privacy Policy - GigChronicle
 
-Effective date: April 21, 2026
+Effective date: May 3, 2026
 
 GigChronicle respects your privacy. This Privacy Policy explains what data is processed, how it is stored, and how it is used.
 
@@ -40,7 +40,7 @@ The app may require the following system permissions:
 • Vibration (VIBRATE) — vibration accompanying sound alarms.
 • Full-screen display (USE_FULL_SCREEN_INTENT) — displaying alarms in full screen.
 • Auto-restart (RECEIVE_BOOT_COMPLETED) — restoring scheduled notifications and alarms after the phone restarts or the app is updated.
-• Camera (CAMERA) — taking photos and recording videos (max 30 seconds) directly from the app.
+• Camera (CAMERA) — taking photos and recording videos (max 30 seconds) directly from the app, and scanning photos for text recognition (OCR) to auto-fill event details.
 • Photo and video selection — the app uses the system Photo Picker (Android 13+) or the Storage Access Framework on older versions. No gallery or media access permission is requested; the system grants access only to the specific file you select.
 • Save to phone gallery — the user can manually save a photo or video from the app gallery to the phone gallery via the system MediaStore. The system may show a one-time confirmation; no persistent storage permission is requested.
 • File import/export — importing CSV, XLSX, or ZIP files and saving exports goes through the system file picker (Storage Access Framework). No storage permission is required.
@@ -84,6 +84,8 @@ The app does not use any third-party services. In particular:
 
 The app uses open-source libraries solely for local functionality (including database, notifications, widgets, photo and video handling, file export). To the best of the developer's knowledge, none of the libraries used collect or transmit user data.
 
+The app uses Google ML Kit (Text Recognition v2) for on-device OCR scanning. The Latin script recognition model is bundled with the app and runs entirely on the user's device. No image data or recognized text is transmitted to Google or any external service.
+
 11. Data Security
 
 All data is stored locally and fully controlled by the user. The user can at any time:
@@ -115,7 +117,7 @@ App developer: Szymon Dobroczyński
 
 Polityka prywatności – GigChronicle
 
-Data wejścia w życie: 21 kwietnia 2026
+Data wejścia w życie: 3 maja 2026
 
 Aplikacja GigChronicle szanuje prywatność użytkowników. Niniejsza polityka prywatności wyjaśnia, jakie dane są przetwarzane, w jaki sposób są przechowywane i wykorzystywane.
 
@@ -155,7 +157,7 @@ Aplikacja może wymagać następujących uprawnień systemowych:
 • Wibracje (VIBRATE) — wibracje towarzyszące alarmom dźwiękowym.
 • Wyświetlanie na pełnym ekranie (USE_FULL_SCREEN_INTENT) — wyświetlanie alarmu na pełnym ekranie.
 • Restart automatyczny (RECEIVE_BOOT_COMPLETED) — przywracanie zaplanowanych powiadomień i alarmów po ponownym uruchomieniu lub aktualizacji telefonu.
-• Aparat (CAMERA) — robienie zdjęć oraz nagrywanie filmów (maks. 30 sekund) bezpośrednio z poziomu aplikacji.
+• Aparat (CAMERA) — robienie zdjęć oraz nagrywanie filmów (maks. 30 sekund) bezpośrednio z poziomu aplikacji oraz skanowanie zdjęć w celu rozpoznawania tekstu (OCR) do automatycznego wypełniania danych wydarzenia.
 • Wybór zdjęć i filmów — aplikacja korzysta z systemowego Photo Picker (Android 13+) lub Storage Access Framework na starszych wersjach. Aplikacja nie prosi o uprawnienie do galerii ani multimediów; system udziela dostępu wyłącznie do wybranego przez użytkownika pliku.
 • Zapis do galerii telefonu — użytkownik może ręcznie zapisać zdjęcie lub film z galerii aplikacji do galerii telefonu poprzez systemowe MediaStore. System może wyświetlić jednorazowe potwierdzenie; aplikacja nie wymaga trwałego uprawnienia do pamięci.
 • Import i eksport plików — importowanie plików CSV, XLSX lub ZIP oraz zapis eksportów odbywa się poprzez systemowy selektor plików (Storage Access Framework). Aplikacja nie wymaga uprawnienia do pamięci.
@@ -199,6 +201,8 @@ Aplikacja nie korzysta z żadnych usług zewnętrznych. W szczególności:
 
 Aplikacja korzysta z bibliotek open-source wyłącznie do obsługi funkcji lokalnych (m.in. baza danych, powiadomienia, widgety, obsługa zdjęć i filmów, eksport plików). Według wiedzy twórcy aplikacji żadna z używanych bibliotek nie zbiera ani nie przesyła danych użytkownika.
 
+Aplikacja używa Google ML Kit (Text Recognition v2) do rozpoznawania tekstu (OCR) na urządzeniu. Model rozpoznawania alfabetu łacińskiego jest dołączony do aplikacji i działa wyłącznie na urządzeniu użytkownika. Żadne dane obrazów ani rozpoznany tekst nie są przesyłane do Google ani innych usług zewnętrznych.
+
 11. Bezpieczeństwo danych
 
 Dane są przechowywane lokalnie i pozostają pod pełną kontrolą użytkownika. Użytkownik może w każdej chwili:
@@ -230,7 +234,7 @@ Twórca aplikacji: Szymon Dobroczyński
 
 Zásady ochrany osobních údajů – GigChronicle
 
-Datum účinnosti: 21. dubna 2026
+Datum účinnosti: 3. května 2026
 
 Aplikace GigChronicle respektuje vaše soukromí. Tyto zásady ochrany osobních údajů vysvětlují, jaké údaje jsou zpracovávány, jak jsou ukládány a jak jsou využívány.
 
@@ -270,7 +274,7 @@ Aplikace může vyžadovat následující systémová oprávnění:
 • Vibrace (VIBRATE) — vibrace doprovázející zvukové budíky.
 • Zobrazení na celou obrazovku (USE_FULL_SCREEN_INTENT) — zobrazení budíku na celé obrazovce.
 • Automatický restart (RECEIVE_BOOT_COMPLETED) — obnovení naplánovaných oznámení a budíků po restartu telefonu nebo aktualizaci aplikace.
-• Fotoaparát (CAMERA) — pořizování fotografií a nahrávání videí (max. 30 sekund) přímo z aplikace.
+• Fotoaparát (CAMERA) — pořizování fotografií a nahrávání videí (max. 30 sekund) přímo z aplikace a skenování fotografií pro rozpoznávání textu (OCR) k automatickému vyplnění údajů o události.
 • Výběr fotografií a videí — aplikace používá systémový Photo Picker (Android 13+) nebo Storage Access Framework na starších verzích. Aplikace nepožaduje oprávnění ke galerii ani médiím; systém uděluje přístup pouze ke konkrétnímu souboru, který vyberete.
 • Uložení do galerie telefonu — uživatel může ručně uložit fotografii nebo video z galerie aplikace do galerie telefonu přes systémové MediaStore. Systém může zobrazit jednorázové potvrzení; aplikace nevyžaduje trvalé oprávnění k úložišti.
 • Import a export souborů — import souborů CSV, XLSX nebo ZIP a ukládání exportů probíhá přes systémový výběr souborů (Storage Access Framework). Není vyžadováno žádné oprávnění k úložišti.
@@ -314,6 +318,8 @@ Aplikace nepoužívá žádné služby třetích stran. Konkrétně:
 
 Aplikace používá open-source knihovny výhradně pro lokální funkce (včetně databáze, oznámení, widgetů, zpracování fotografií a videí, exportu souborů). Podle nejlepšího vědomí vývojáře žádná z použitých knihoven neshromažďuje ani nepřenáší údaje uživatele.
 
+Aplikace používá Google ML Kit (Text Recognition v2) pro rozpoznávání textu (OCR) v zařízení. Model rozpoznávání latinky je součástí aplikace a běží výhradně v zařízení uživatele. Žádná obrazová data ani rozpoznaný text nejsou přenášeny společnosti Google ani žádné externí službě.
+
 11. Zabezpečení údajů
 
 Všechny údaje jsou uloženy lokálně a plně pod kontrolou uživatele. Uživatel může kdykoli:
@@ -345,7 +351,7 @@ Autor aplikace: Szymon Dobroczyński
 
 Datenschutzrichtlinie – GigChronicle
 
-Gültig ab: 21. April 2026
+Gültig ab: 3. Mai 2026
 
 Die App GigChronicle respektiert Ihre Privatsphäre. Diese Datenschutzrichtlinie erklärt, welche Daten verarbeitet werden, wie sie gespeichert und wie sie verwendet werden.
 
@@ -385,7 +391,7 @@ Die App kann folgende Systemberechtigungen erfordern:
 • Vibration (VIBRATE) — Vibration bei akustischen Alarmen.
 • Vollbildanzeige (USE_FULL_SCREEN_INTENT) — Anzeige von Alarmen im Vollbildmodus.
 • Automatischer Neustart (RECEIVE_BOOT_COMPLETED) — Wiederherstellung geplanter Benachrichtigungen und Alarme nach Neustart oder App-Update.
-• Kamera (CAMERA) — Aufnahme von Fotos und Videos (max. 30 Sekunden) direkt aus der App.
+• Kamera (CAMERA) — Aufnahme von Fotos und Videos (max. 30 Sekunden) direkt aus der App sowie Scannen von Fotos zur Texterkennung (OCR), um Veranstaltungsdaten automatisch auszufüllen.
 • Foto- und Videoauswahl — Die App verwendet den System-Photo-Picker (Android 13+) oder das Storage Access Framework bei älteren Versionen. Es wird keine Galerie- oder Medienzugriffsberechtigung angefordert; das System gewährt nur Zugriff auf die von Ihnen ausgewählte Datei.
 • Speichern in Telefon-Galerie — Der Benutzer kann manuell ein Foto oder Video aus der App-Galerie in die Telefon-Galerie über den System-MediaStore speichern. Das System zeigt bei Bedarf eine einmalige Bestätigung an; es wird keine dauerhafte Speicherberechtigung angefordert.
 • Datei-Import/Export — Der Import von CSV-, XLSX- oder ZIP-Dateien und das Speichern von Exporten erfolgt über die System-Dateiauswahl (Storage Access Framework). Es ist keine Speicherberechtigung erforderlich.
@@ -429,6 +435,8 @@ Die App verwendet keine Drittanbieter-Dienste. Insbesondere:
 
 Die App verwendet Open-Source-Bibliotheken ausschließlich für lokale Funktionen (einschließlich Datenbank, Benachrichtigungen, Widgets, Foto- und Videoverarbeitung, Dateiexport). Nach bestem Wissen des Entwicklers sammelt oder überträgt keine der verwendeten Bibliotheken Benutzerdaten.
 
+Die App verwendet Google ML Kit (Text Recognition v2) für die Texterkennung (OCR) auf dem Gerät. Das Erkennungsmodell für lateinische Schrift ist in der App enthalten und läuft ausschließlich auf dem Gerät des Nutzers. Es werden keine Bilddaten oder erkannten Texte an Google oder einen externen Dienst übertragen.
+
 11. Datensicherheit
 
 Alle Daten werden lokal gespeichert und vollständig vom Benutzer kontrolliert. Der Benutzer kann jederzeit:
@@ -460,7 +468,7 @@ App-Entwickler: Szymon Dobroczyński
 
 Política de privacidad – GigChronicle
 
-Fecha de entrada en vigor: 21 de abril de 2026
+Fecha de entrada en vigor: 3 de mayo de 2026
 
 GigChronicle respeta tu privacidad. Esta Política de privacidad explica qué datos se procesan, cómo se almacenan y cómo se utilizan.
 
@@ -500,7 +508,7 @@ La aplicación puede requerir los siguientes permisos del sistema:
 • Vibración (VIBRATE) — vibración que acompaña a las alarmas sonoras.
 • Visualización en pantalla completa (USE_FULL_SCREEN_INTENT) — mostrar alarmas en pantalla completa.
 • Reinicio automático (RECEIVE_BOOT_COMPLETED) — restaurar notificaciones y alarmas programadas tras el reinicio del teléfono o la actualización de la aplicación.
-• Cámara (CAMERA) — tomar fotos y grabar vídeos (máx. 30 segundos) directamente desde la aplicación.
+• Cámara (CAMERA) — tomar fotos y grabar vídeos (máx. 30 segundos) directamente desde la aplicación, y escanear fotos para el reconocimiento de texto (OCR) para rellenar automáticamente los datos del evento.
 • Selección de fotos y vídeos — la aplicación utiliza el Photo Picker del sistema (Android 13+) o el Storage Access Framework en versiones anteriores. No se solicita ningún permiso de acceso a la galería ni a los medios; el sistema concede acceso solo al archivo específico que selecciones.
 • Guardar en la galería del teléfono — el usuario puede guardar manualmente una foto o vídeo de la galería de la aplicación en la galería del teléfono a través del MediaStore del sistema. El sistema puede mostrar una confirmación única; no se solicita permiso de almacenamiento persistente.
 • Importación y exportación de archivos — la importación de archivos CSV, XLSX o ZIP y el guardado de exportaciones se realizan a través del selector de archivos del sistema (Storage Access Framework). No se requiere ningún permiso de almacenamiento.
@@ -544,6 +552,8 @@ La aplicación no utiliza ningún servicio de terceros. En particular:
 
 La aplicación utiliza bibliotecas de código abierto exclusivamente para funciones locales (incluyendo base de datos, notificaciones, widgets, procesamiento de fotos y vídeos, exportación de archivos). Según el conocimiento del desarrollador, ninguna de las bibliotecas utilizadas recopila ni transmite datos del usuario.
 
+La aplicación utiliza Google ML Kit (Text Recognition v2) para el reconocimiento de texto (OCR) en el dispositivo. El modelo de reconocimiento de escritura latina está incluido en la aplicación y se ejecuta exclusivamente en el dispositivo del usuario. No se transmiten datos de imágenes ni texto reconocido a Google ni a ningún servicio externo.
+
 11. Seguridad de los datos
 
 Todos los datos se almacenan localmente y están completamente controlados por el usuario. El usuario puede en cualquier momento:
@@ -575,7 +585,7 @@ Creador de la aplicación: Szymon Dobroczyński
 
 Política de Privacidade – GigChronicle
 
-Data de entrada em vigor: 21 de abril de 2026
+Data de entrada em vigor: 3 de maio de 2026
 
 A aplicação GigChronicle respeita a sua privacidade. Esta Política de Privacidade explica que dados são processados, como são armazenados e como são utilizados.
 
@@ -615,7 +625,7 @@ A aplicação pode requerer as seguintes permissões do sistema:
 • Vibração (VIBRATE) — vibração que acompanha os alarmes sonoros.
 • Apresentação em ecrã inteiro (USE_FULL_SCREEN_INTENT) — apresentação de alarmes em ecrã inteiro.
 • Reinício automático (RECEIVE_BOOT_COMPLETED) — restauro de notificações e alarmes agendados após o reinício do telefone ou atualização da aplicação.
-• Câmara (CAMERA) — captura de fotos e gravação de vídeos (máx. 30 segundos) diretamente da aplicação.
+• Câmara (CAMERA) — captura de fotos e gravação de vídeos (máx. 30 segundos) diretamente da aplicação, e digitalização de fotos para reconhecimento de texto (OCR) para preencher automaticamente os dados do evento.
 • Seleção de fotos e vídeos — a aplicação utiliza o Photo Picker do sistema (Android 13+) ou o Storage Access Framework em versões mais antigas. Não é solicitada qualquer permissão de acesso à galeria ou aos meios; o sistema concede acesso apenas ao ficheiro específico que selecionar.
 • Guardar na galeria do telefone — o utilizador pode guardar manualmente uma foto ou vídeo da galeria da aplicação na galeria do telefone através do MediaStore do sistema. O sistema pode apresentar uma confirmação única; não é solicitada qualquer permissão de armazenamento persistente.
 • Importação e exportação de ficheiros — a importação de ficheiros CSV, XLSX ou ZIP e o guardar de exportações é feito através do seletor de ficheiros do sistema (Storage Access Framework). Não é necessária qualquer permissão de armazenamento.
@@ -659,6 +669,8 @@ A aplicação não utiliza quaisquer serviços de terceiros. Em particular:
 
 A aplicação utiliza bibliotecas de código aberto exclusivamente para funcionalidades locais (incluindo base de dados, notificações, widgets, processamento de fotos e vídeos, exportação de ficheiros). Segundo o conhecimento do desenvolvedor, nenhuma das bibliotecas utilizadas recolhe ou transmite dados do utilizador.
 
+A aplicação utiliza o Google ML Kit (Text Recognition v2) para reconhecimento de texto (OCR) no dispositivo. O modelo de reconhecimento de escrita latina está incluído na aplicação e é executado exclusivamente no dispositivo do utilizador. Nenhum dado de imagem ou texto reconhecido é transmitido ao Google ou a qualquer serviço externo.
+
 11. Segurança dos dados
 
 Todos os dados são armazenados localmente e totalmente controlados pelo utilizador. O utilizador pode a qualquer momento:
@@ -690,7 +702,7 @@ Desenvolvedor da aplicação: Szymon Dobroczyński
 
 Tietosuojakäytäntö – GigChronicle
 
-Voimaantulopäivä: 21. huhtikuuta 2026
+Voimaantulopäivä: 3. toukokuuta 2026
 
 GigChronicle kunnioittaa yksityisyyttäsi. Tämä tietosuojakäytäntö selittää, mitä tietoja käsitellään, miten ne tallennetaan ja miten niitä käytetään.
 
@@ -730,7 +742,7 @@ Sovellus voi vaatia seuraavat järjestelmäoikeudet:
 • Värinä (VIBRATE) — äänihälytyksiin liittyvä värinä.
 • Koko näytön näyttö (USE_FULL_SCREEN_INTENT) — hälytysten näyttäminen koko näytöllä.
 • Automaattinen uudelleenkäynnistys (RECEIVE_BOOT_COMPLETED) — ajastettujen ilmoitusten ja hälytysten palauttaminen puhelimen uudelleenkäynnistyksen tai sovelluspäivityksen jälkeen.
-• Kamera (CAMERA) — valokuvien ottaminen ja videoiden kuvaaminen (enintään 30 sekuntia) suoraan sovelluksesta.
+• Kamera (CAMERA) — valokuvien ottaminen ja videoiden kuvaaminen (enintään 30 sekuntia) suoraan sovelluksesta sekä valokuvien skannaaminen tekstintunnistusta (OCR) varten tapahtumatietojen automaattiseen täyttämiseen.
 • Valokuvien ja videoiden valinta — sovellus käyttää järjestelmän Photo Pickeriä (Android 13+) tai Storage Access Frameworkia vanhemmissa versioissa. Sovellus ei pyydä gallerian tai median käyttöoikeuksia; järjestelmä myöntää pääsyn vain valitsemaasi tiedostoon.
 • Tallennus puhelimen galleriaan — käyttäjä voi tallentaa valokuvan tai videon sovelluksen galleriasta puhelimen galleriaan järjestelmän MediaStoren kautta. Järjestelmä voi näyttää kertaluontoisen vahvistuksen; pysyvää tallennusoikeutta ei pyydetä.
 • Tiedostojen tuonti ja vienti — CSV-, XLSX- tai ZIP-tiedostojen tuonti ja vientitiedostojen tallentaminen tapahtuu järjestelmän tiedostovalitsimen (Storage Access Framework) kautta. Tallennustilan käyttöoikeutta ei tarvita.
@@ -773,6 +785,8 @@ Sovellus ei käytä mitään kolmannen osapuolen palveluita. Erityisesti:
 10. Kolmannen osapuolen kirjastot
 
 Sovellus käyttää avoimen lähdekoodin kirjastoja yksinomaan paikallisiin toimintoihin (mukaan lukien tietokanta, ilmoitukset, widgetit, valokuvien ja videoiden käsittely, tiedostojen vienti). Kehittäjän parhaan tietämyksen mukaan mikään käytetyistä kirjastoista ei kerää eikä lähetä käyttäjätietoja.
+
+Sovellus käyttää Google ML Kit (Text Recognition v2) -kirjastoa tekstintunnistukseen (OCR) laitteella. Latinalaisten merkkien tunnistusmalli sisältyy sovellukseen ja toimii yksinomaan käyttäjän laitteella. Mitään kuvatietoja tai tunnistettua tekstiä ei välitetä Googlelle eikä millekään ulkoiselle palvelulle.
 
 11. Tietoturva
 
